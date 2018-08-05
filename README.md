@@ -1,5 +1,5 @@
 # graph steady state embedding
-Learning Steady-States of Iterative Algorithms over Graphs (coming soon)
+Learning Steady-States of Iterative Algorithms over Graphs (http://proceedings.mlr.press/v80/dai18a/dai18a.pdf)
 
 #### 1. Setup the environment
 
