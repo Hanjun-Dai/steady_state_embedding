@@ -1,0 +1,35 @@
+#include "config.h"
+
+int cfg::iter = 0;
+int cfg::n_hidden = 128;
+int cfg::num_nodes = 0;
+int cfg::num_labels = 0;
+int cfg::dim_feat = 0;
+int cfg::n_sample = 1;
+unsigned cfg::n_embed = 128;
+unsigned cfg::max_iter = 0;
+unsigned cfg::f_iter = 1;
+unsigned cfg::v_iter = 1;
+unsigned cfg::dev_id = 0;
+unsigned cfg::batch_size = 32;
+unsigned cfg::test_interval = 10000;
+unsigned cfg::report_interval = 100;
+unsigned cfg::save_interval = 50000;
+Dtype cfg::lr = 0.0005;
+Dtype cfg::l2_penalty = 0;
+Dtype cfg::momentum = 0;
+Dtype cfg::w_scale = 0.01;
+const char* cfg::save_dir = "./saved";
+const char* cfg::data_root = nullptr;
+char* cfg::f_train_idx = nullptr;
+char* cfg::f_test_idx = nullptr;
+const char* cfg::data_name = nullptr;
+const char* cfg::f_feat = nullptr;
+const char* cfg::f_score = nullptr;
+const char* cfg::f_label = nullptr;
+const char* cfg::f_idx = nullptr;
+bool cfg::has_feat = false;
+bool cfg::multi_label = false;
+bool cfg::is_regression = false;
+bool cfg::avg = false;
+bool cfg::sparse_feat = true;
